@@ -1,4 +1,6 @@
+
 export default {
+
     getPubDate: function (dateTimeStamp) {
         var minute = 1000 * 60;
         var hour = minute * 60;
