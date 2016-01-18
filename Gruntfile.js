@@ -17,7 +17,14 @@ module.exports = function (grunt) {
                 },
                 module: {
                     loaders: [
-                        {test: /\.(jsx|js)$/, exclude: /node_modules/, loader: 'babel-loader', query: {compact: false}},
+                        {
+                            test: /\.(jsx|js)$/,
+                            exclude: /node_modules/,
+                            loader: 'babel-loader',
+                            query: {compact: false},
+                            presets: ["es2015","react"]
+
+                        },
                         {test: /\.json$/, loader: 'json-loader'}
                     ]
                 }
