@@ -5,6 +5,7 @@ import queryString from 'query-string';
 import Navbar      from './partials/navbar.jsx';
 import utils       from '../component/utils';
 
+
 class Label extends React.Component {
     render() {
         var tab = this.props.tab;
@@ -35,6 +36,7 @@ class Label extends React.Component {
         return null;
     }
 }
+
 
 export default class Index extends React.Component {
     constructor(props) {

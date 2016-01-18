@@ -19,6 +19,7 @@ app.set('views', `${__dirname}/component/views`);
 app.set('view engine', 'jsx');
 app.set('view', renderer.expressView);
 
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(methodOverride());

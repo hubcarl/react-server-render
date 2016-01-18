@@ -2,6 +2,7 @@ import React     from 'react';
 import Constants from '../../../lib/constants';
 import Footer    from '../partials/footer.jsx';
 
+
 export default class Default extends React.Component{
     render() {
         return (

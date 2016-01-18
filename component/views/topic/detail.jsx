@@ -4,6 +4,7 @@ import $      from 'jquery';
 import Navbar from '../partials/navbar.jsx';
 import utils  from '../../component/utils';
 
+
 export default class Detail extends React.Component {
     render() {
         var topic = this.props.data;

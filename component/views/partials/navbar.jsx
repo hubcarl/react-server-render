@@ -2,6 +2,7 @@ import React   from 'react';
 import {Link}  from 'react-router';
 import navJson from './navbar.json';
 
+
 class NavItem extends React.Component{
     render () {
         var nav = this.props.nav;
@@ -10,6 +11,7 @@ class NavItem extends React.Component{
         )
     }
 }
+
 
 
 export default class Navbar extends React.Component{

@@ -3,6 +3,7 @@ import {RouteHandler} from 'react-router';
 import Layout from './views/layouts/default.jsx';
 
 
+
 export default class App extends React.Component{
     render () {
         var data = this.props.data;

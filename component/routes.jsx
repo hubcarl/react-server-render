@@ -5,6 +5,7 @@ import Index               from './views/index.jsx';
 import TopicDetail         from './views/topic/detail.jsx';
 import UserDetail          from './views/user/detail.jsx';
 
+
 export  default (
     <Route handler={App} path="/">
         <DefaultRoute name="index" handler={Index}/>

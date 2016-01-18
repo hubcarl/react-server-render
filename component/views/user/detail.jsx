@@ -3,6 +3,7 @@ import {Link} from 'react-router';
 import Navbar from '../partials/navbar.jsx';
 import utils  from '../../component/utils';
 
+
 export default class Detail extends React.Component {
     constructor(props) {
         super(props);

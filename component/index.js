@@ -13,6 +13,7 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 }
 
 
+
 document.addEventListener('DOMContentLoaded', function onLoad() {
     Router.run(Routes, Router.HistoryLocation, function onRouterRun(Root, state) {
         var props = _window[CLIENT_VARIABLENAME];
